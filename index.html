@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale:">
+        <title>Contest</title>
+        <link rel="stylesheet" href="style.css">
+        
+       
+    </head>
+    <body>
+        <nav class="child">
+            <ul>
+                <li id="first" ><a href="#">Library-system</a></li>
+                <li id="second"><a href="#">Logout</a></li>
+                <li id="second"><a href="#">Contact Us</a></li>
+                <li id="second"><a href="#">Register</a></li>
+                <li id="second"><a href="#">Books</a></li>
+              </ul>
+        </nav><br>
+        <div><br>
+            <section>
+                <h1>Books</h1>
+            </section>
+       <table border="1" cellspacing="0">
+        
+           <tr>
+                 <th>Book ID</th>
+                 <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Availability</th>
+           </tr>
+           <tr>
+                 <td rowspan="4">1</td>
+                <td><a href="#">Later is a Liar</a></td>
+                <td rowspan="4">Dr. Richard E. Toney</td>
+                <td rowspan="4">Gen 1</td>
+                <td rowspan="4">Available</td>
+           </tr>
+           <tr>
+                <td>Publication Date: 2015</td>
+           </tr>
+           <tr>
+                <td>Page Count: 100</td>
+           </tr>
+           <tr>
+                <td>ISBN: 1490757686</td> 
+           </tr>
+           <tr>
+                <td rowspan="4">2</td>
+                <td><a href="#">Year of Yes</a></td>
+                <td rowspan="4">Shona Rimes</td>
+                <td rowspan="4">Gen 1</td>
+                <td rowspan="4">Not Available</td>
+           </tr>
+           <tr>
+                <td>Publication Date: 2016</td>
+           </tr>
+           <tr>
+                <td>Page Count: 352</td>
+           </tr>
+           <tr>
+                <td>ISBN-13: 978-1476777122</td>
+           </tr>
+           <tr>
+                <td rowspan="4">3</td>
+                <td><a href="#">David and Goliath</a></td>
+                <td rowspan="4">Malcolm Gladwell</td>
+                <td rowspan="4">Gen 2</td>
+                <td rowspan="4">Available</td>
+           </tr>
+           <tr>
+                <td>Publication Date: 2013</td>
+           </tr>
+           <tr>
+                <td>Page Count: 320</td>
+           </tr>
+           <tr>
+                <td>ISBN: 123-978-0316204361</td>
+           </tr>
+           
+       </table>
+        </div>
+        <div>
+            <section>
+                <h1>Register</h1>
+            </section>
+            <form method="POST">
+                <div>
+                    <label for="name">First Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                </div>
+                <div>
+                    <label for="name">Last Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                </div>
+                <div>
+                    <label for="dob">Date of Birth:</label><br>
+                    <input type="date" id="dob" name="dob" required><br>
+                </div>
+                <div>
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" name="age" min="5" max="100"><br>
+                </div>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                </div>
+                <div>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"><br>
+                </div>
+                <div>
+                    <label for="confirm password">Confirm Password:</label><br>
+                    <input type="password" id="password" name="password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"><br>
+                </div>
+                <div>
+                    <button>Register</button>
+                </div>
+
+            </form>
+    </div>        
+    
+    </body>
+</html>
